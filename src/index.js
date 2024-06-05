@@ -10,7 +10,11 @@ import ReactDOM from "react-dom/client";
 
 import MyComponent from "./MyComponent";
 
-export { MyComponent };
+const demo = () => {
+  return <div>demo</div>;
+};
+
+export { MyComponent, demo };
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
